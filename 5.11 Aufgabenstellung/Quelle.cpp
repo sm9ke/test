@@ -15,7 +15,7 @@ S_FieldInfo Playfield[nWidth][nHeigth];
 
 //Functions
 void ShowField();
-void OccupateField();
+void SelectField();
 void ShowData();
 void ClearField();
 
@@ -49,7 +49,7 @@ int main()
 			
 			case(2):
 			{
-				OccupateField();
+				SelectField();
 			} break;
 
 			case(3):
@@ -108,7 +108,7 @@ void ShowField()
 
 
 //Select Field
-void OccupateField()
+void SelectField()
 {
 	int x = 0;
 	int y = 0;
@@ -135,7 +135,7 @@ void OccupateField()
 	Playfield[x - 1][y - 1].bOccupied = true;
 
 	std::cout << "-------------------" << std::endl;
-} //Occupate Field
+} //Select Field
 
 
 //Field Information
