@@ -1,0 +1,2 @@
+D:\VisualStudio\5.11 Aufgabenstellung\x64\Debug\5.11 Aufgabenstellung.exe
+D:\VisualStudio\5.11 Aufgabenstellung\x64\Debug\5.11 Aufgabenstellung.pdb
